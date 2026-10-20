@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Integritetspolicy – Jarvis (privat)</title>
+<style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#111;background:#fff}a{color:#0645ad}</style>
+</head>
+<body>
+<h1>Integritetspolicy för Jarvis (privat)</h1>
+<p>Senast uppdaterad: 2026-10-20</p>
+
+<h2>Vem använder Jarvis</h2>
+<p>Jarvis är ett privat verktyg som körs lokalt på ägarens egen dator. Det används endast med ägarens egna Google- och YouTube-konton. Inga andra användare finns.</p>
+
+<h2>Vilka Google-data som används</h2>
+<p>Efter ägarens godkännande i Googles inloggningsflöde använder Jarvis följande behörigheter:</p>
+<ul>
+<li><code>youtube.readonly</code>: för att läsa kanalens namn och ID och grundläggande statistik, som visningar, gillamarkeringar och kommentarer på uppladdade videor.</li>
+<li><code>youtube.upload</code>: för att ladda upp videor som ägaren har godkänt.</li>
+</ul>
+
+<h2>Hur data lagras och delas</h2>
+<ul>
+<li>Åtkomst- och förnyelsetoken lagras krypterat lokalt på ägarens dator.</li>
+<li>Kanal-ID, kanalnamn och statistik lagras lokalt i Jarvis databaser.</li>
+<li>Data säljs inte och delas inte med någon. Den används inte för reklam och inte för att träna AI-modeller.</li>
+</ul>
+
+<h2>Radering och återkallning</h2>
+<ul>
+<li>När en kanal kopplas från i Jarvis återkallas behörigheten hos Google och token raderas omedelbart. Övrig lagrad API-data för kanalen raderas inom 7 dagar.</li>
+<li>Åtkomsten kan också återkallas när som helst via Googles säkerhetsinställningar: <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>. Lagrad API-data raderas då inom 30 dagar.</li>
+</ul>
+
+<h2>Google och YouTube</h2>
+<p>Jarvis använder YouTube API Services. Se även <a href="https://www.youtube.com/t/terms">YouTubes användarvillkor</a> och <a href="http://www.google.com/policies/privacy">Googles integritetspolicy</a>. Användningen av data som tas emot från Google API:er följer <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, inklusive kraven på begränsad användning (Limited Use).</p>
+
+<h2>Kontakt</h2>
+<p>Frågor om integritet: {KONTAKT_EPOST}</p>
+
+<hr>
+<div lang="en">
+<h2>English summary</h2>
+<p>Jarvis is a private tool run locally by its single owner, using only the owner's own Google and YouTube accounts. It uses <code>youtube.readonly</code> (channel identity and basic video statistics) and <code>youtube.upload</code> (uploading owner-approved videos). Tokens are stored encrypted on the owner's computer, and channel data is stored locally. No data is sold, shared, used for advertising or used to train AI models. Disconnecting a channel in Jarvis revokes access and deletes its tokens immediately; other stored API data is deleted within 7 days. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">Google security settings</a>, after which stored API data is deleted within 30 days. See the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>. Use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Contact: {KONTAKT_EPOST}</p>
+</div>
+<p><a href="index.html">Start</a> · <a href="terms.html">Användarvillkor / Terms</a></p>
+</body>
+</html>
